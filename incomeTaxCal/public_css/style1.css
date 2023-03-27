@@ -1,0 +1,122 @@
+body{
+   
+    margin:0px;
+    padding:0px;
+}
+.wp-block-post-title{
+    color:white;
+    font-weight:bold;
+}
+.wp-block-separator {
+    color:white;
+}
+form{
+    background-color: #0C4160;
+    width:100%;
+    padding:10px;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    /* background-color: #0C4160; */
+    border-radius:5px;
+}
+.label{
+    color:white ;
+    font-size:bold; 
+    font-size:23px;
+    display:block;
+    margin:10px 0px;
+}
+.input{
+    width:100%;
+    font-size:bold; 
+    font-size:23px;
+    padding: 10px;
+}
+h4{
+    margin:25px 0px;
+    color:white;
+    font-weight:bold;
+}
+.income_fields{
+    display:flex;
+    flex-direction:column;
+
+}
+.income{
+    display:flex;
+    justify-content:space-between;
+    margin:10px 0px;
+}
+.income label{
+    color:white;
+    display:flex;
+    align-items:center;
+}
+.income input{
+    width:150px;
+    height:50px;
+    font-size:22px;
+}
+.button{
+    margin:20px;
+    display:flex;
+    justify-content:center;
+}
+.button input{
+    width:200px;
+    height:60px;
+    font-size:30px;
+    font-weight:bold;
+    color:#0C4160;
+    border:none;
+    border-radius:3px;
+    cursor:pointer;
+}
+.result{
+    border:1px solid white; 
+    /* height:200px; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.regime{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.regime h5{
+    width:250px;
+    color:white;
+    font-size:20px;
+    margin:5px 0px;
+}
+.regime p{
+    color:white;
+    font-size:20px;
+    margin:5px 0px;
+    width:150px;
+}
+.result_des{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.regime .result_block{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.regime .result_block h5{
+    width:250px;
+    color:white;
+    font-size:20px;
+    margin:5px 0px;
+}
+.regime .result_block p{
+    width:150px;
+    color:white;
+    font-size:20px;
+    margin:5px 0px;
+    border-bottom:3px solid green;
+}
